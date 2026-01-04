@@ -1,0 +1,1 @@
+PCA basis of Scattered Gaussians for Shape Matching via Functional Maps. Research project implementing advanced shape matching algorithms using MATLAB.

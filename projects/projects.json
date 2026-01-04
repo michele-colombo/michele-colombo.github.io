@@ -1,0 +1,29 @@
+[
+    {
+        "id": "pc-gau",
+        "title": "PC-Gau: Shape Matching",
+        "subtitle": "Research Project, 2022",
+        "descriptionPath": "projects/pc-gau/description.txt",
+        "tags": ["MATLAB", "Computer Vision", "Shape Analysis"],
+        "thumbnailPath": "projects/pc-gau/thumbnail.png",
+        "sourceCodeLink": "https://github.com/michele-colombo/PC-Gau_STAG2022"
+    },
+    {
+        "id": "adrenaline",
+        "title": "Adrenaline Board Game",
+        "subtitle": "Software Engineering, 2019",
+        "descriptionPath": "projects/adrenaline/description.txt",
+        "tags": ["Java", "Socket/RMI", "JavaFX"],
+        "thumbnailPath": "projects/adrenaline/thumbnail.png",
+        "sourceCodeLink": "https://github.com/michele-colombo/ing-sw-2019-colombo-daglio-diceglie"
+    },
+    {
+        "id": "esp32-gimbal",
+        "title": "ESP32 Gimbal",
+        "subtitle": "Didactic Project, 2025",
+        "descriptionPath": "projects/esp32-gimbal/description.txt",
+        "tags": ["ESP32", "FOC Control", "Hardware"],
+        "thumbnailPath": "projects/esp32-gimbal/thumbnail.png",
+        "sourceCodeLink": "https://github.com/michele-colombo/esp32-gimbal"
+    }
+]

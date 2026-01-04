@@ -40,78 +40,11 @@
         <section id="projects" class="section">
             <div class="container">
                 <h2 class="section-title">Projects</h2>
+                <div class="filter-container">
+                    <!-- Tag filter buttons will be dynamically added here -->
+                </div>
                 <div class="projects-grid">
-                    <!-- Project 1: PC-Gau -->
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/pc-gau-placeholder.png" alt="PC-Gau Project" onerror="this.src='https://via.placeholder.com/400x250/4a90e2/ffffff?text=PC-Gau'">
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">PC-Gau: Shape Matching</h3>
-                            <p class="project-description">
-                                PCA basis of Scattered Gaussians for Shape Matching via Functional Maps. 
-                                Research project implementing advanced shape matching algorithms using MATLAB.
-                            </p>
-                            <div class="project-tech">
-                                <span class="tech-tag">MATLAB</span>
-                                <span class="tech-tag">Computer Vision</span>
-                                <span class="tech-tag">Shape Analysis</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/michele-colombo/PC-Gau_STAG2022" target="_blank" class="btn btn-primary">
-                                    <i class="fab fa-github"></i> Source Code
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 2: Adrenaline -->
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/adrenaline-placeholder.png" alt="Adrenaline Game" onerror="this.src='https://via.placeholder.com/400x250/e24a90/ffffff?text=Adrenaline'">
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Adrenaline Board Game</h3>
-                            <p class="project-description">
-                                Software Engineering final project: digital implementation of the Adrenaline board game. 
-                                Features multiplayer support via Socket and RMI, with both GUI and CLI interfaces.
-                            </p>
-                            <div class="project-tech">
-                                <span class="tech-tag">Java</span>
-                                <span class="tech-tag">Socket/RMI</span>
-                                <span class="tech-tag">JavaFX</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/michele-colombo/ing-sw-2019-colombo-daglio-diceglie" target="_blank" class="btn btn-primary">
-                                    <i class="fab fa-github"></i> Source Code
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 3: ESP32 Gimbal -->
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/gimbal-placeholder.png" alt="ESP32 Gimbal" onerror="this.src='https://via.placeholder.com/400x250/4ae290/ffffff?text=ESP32+Gimbal'">
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">ESP32 Gimbal</h3>
-                            <p class="project-description">
-                                A 3D-printed gimbal actuated by brushless motors and controlled with an ESP32. 
-                                Didactic project exploring mechanical design, brushless motors, FOC control, and PID.
-                            </p>
-                            <div class="project-tech">
-                                <span class="tech-tag">ESP32</span>
-                                <span class="tech-tag">FOC Control</span>
-                                <span class="tech-tag">Hardware</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/michele-colombo/esp32-gimbal" target="_blank" class="btn btn-primary">
-                                    <i class="fab fa-github"></i> Source Code
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Projects will be dynamically loaded here -->
                 </div>
             </div>
         </section>
@@ -148,5 +81,7 @@
             <p>&copy; 2026 Michele Colombo. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="scripts/projects.js"></script>
 </body>
 </html>

@@ -1,0 +1,1 @@
+Software Engineering final project: digital implementation of the Adrenaline board game. Features multiplayer support via Socket and RMI, with both GUI and CLI interfaces.
