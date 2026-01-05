@@ -58,7 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <button onclick="filterProjects('All')">All</button>
         <button onclick="filterProjects('MATLAB')">MATLAB</button>
         <button onclick="filterProjects('Java')">Java</button>
-        <button onclick="filterProjects('ESP32')">ESP32</button>
     `;
     
     // Insert the filter container after the section title
