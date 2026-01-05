@@ -1,29 +1,42 @@
 [
     {
         "id": "pc-gau",
-        "title": "PC-Gau: Shape Matching",
-        "subtitle": "Research Project, 2022",
+        "title": "PC-Gau: PCA Basis of Scattered Gaussians for Shape Matching via Functional Maps",
+        "subtitle": "2022 - Politecnico di Milano - MSc Thesis",
         "descriptionPath": "projects/pc-gau/description.txt",
-        "tags": ["MATLAB", "Computer Vision", "Shape Analysis"],
+        "tags": ["MATLAB", "Computational Geometry", "Shape Analysis"],
         "thumbnailPath": "projects/pc-gau/thumbnail.png",
-        "sourceCodeLink": "https://github.com/michele-colombo/PC-Gau_STAG2022"
+        "links": [
+            {
+                "text": "Demo Code",
+                "url": "https://github.com/michele-colombo/PC-Gau_STAG2022",
+                "icon": "fab fa-github"
+            },
+            {
+                "text": "Paper STAG 2022",
+                "url": "projects/pc-gau/2022_09_PCGAU_STAG_final.pdf",
+                "icon": "fas fa-file-pdf"
+            },
+            {
+                "text": "Paper C&G 2023",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S009784932300047X",
+                "icon": "fas fa-book"
+            }
+        ]
     },
     {
         "id": "adrenaline",
         "title": "Adrenaline Board Game",
-        "subtitle": "Software Engineering, 2019",
+        "subtitle": "2019 - Politecnico di Milano",
         "descriptionPath": "projects/adrenaline/description.txt",
-        "tags": ["Java", "Socket/RMI", "JavaFX"],
-        "thumbnailPath": "projects/adrenaline/thumbnail.png",
-        "sourceCodeLink": "https://github.com/michele-colombo/ing-sw-2019-colombo-daglio-diceglie"
-    },
-    {
-        "id": "esp32-gimbal",
-        "title": "ESP32 Gimbal",
-        "subtitle": "Didactic Project, 2025",
-        "descriptionPath": "projects/esp32-gimbal/description.txt",
-        "tags": ["ESP32", "FOC Control", "Hardware"],
-        "thumbnailPath": "projects/esp32-gimbal/thumbnail.png",
-        "sourceCodeLink": "https://github.com/michele-colombo/esp32-gimbal"
+        "tags": ["Java", "GUI"],
+        "thumbnailPath": "projects/adrenaline/adrenaline-thumbnail.png",
+        "links": [
+            {
+                "text": "Source Code",
+                "url": "https://github.com/michele-colombo/ing-sw-2019-colombo-daglio-diceglie",
+                "icon": "fab fa-github"
+            }
+        ]
     }
 ]

@@ -84,16 +84,17 @@ header {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    border-left: 4px solid #3498db;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
 
-.placeholder-text {
-    font-size: 1.1rem;
-    line-height: 1.8;
+.about-content p {
+    margin: 1rem 0;
     color: #666;
-    background-color: #f9f9f9;
-    padding: 2rem;
-    border-radius: 8px;
-    border-left: 4px solid #3498db;
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
 
 /* Projects Section */

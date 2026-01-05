@@ -10,6 +10,12 @@ async function loadProjects() {
         const projectCard = document.createElement('div');
         projectCard.className = 'project-card';
 
+        const linksHTML = project.links.map(link => `
+            <a href="${link.url}" target="_blank" class="btn btn-primary" ${link.url.endsWith('.pdf') ? 'download' : ''}>
+                ${link.icon ? `<i class="${link.icon}"></i>` : ''} ${link.text}
+            </a>
+        `).join('');
+
         projectCard.innerHTML = `
             <div class="project-image">
                 <img src="${project.thumbnailPath}" alt="${project.title}" onerror="this.src='https://via.placeholder.com/400x250'">
@@ -22,9 +28,7 @@ async function loadProjects() {
                     ${project.tags.map(tag => `<span class='tech-tag'>${tag}</span>`).join('')}
                 </div>
                 <div class="project-links">
-                    <a href="${project.sourceCodeLink}" target="_blank" class="btn btn-primary">
-                        <i class="fab fa-github"></i> Source Code
-                    </a>
+                    ${linksHTML}
                 </div>
             </div>
         `;

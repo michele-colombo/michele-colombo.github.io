@@ -1,1 +1,1 @@
-Software Engineering final project: digital implementation of the Adrenaline board game. Features multiplayer support via Socket and RMI, with both GUI and CLI interfaces.
+Final project of the Software Engineering course at Polimi: implement a multiplayer board game in Java. Features multiplayer support via Socket and RMI, with both GUI and CLI interfaces. The project was carried out in a group of 3 and contributed to the final evaluation of my BSc in Computer Science.

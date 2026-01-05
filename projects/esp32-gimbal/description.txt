@@ -1,1 +1,0 @@
-A 3D-printed gimbal actuated by brushless motors and controlled with an ESP32. Didactic project exploring mechanical design, brushless motors, FOC control, and PID.

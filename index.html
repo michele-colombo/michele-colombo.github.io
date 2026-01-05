@@ -1,87 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michele Colombo - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michele Colombo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="nav-container">
-                <h1 class="logo">Michele Colombo</h1>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <!-- About Me Section -->
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="about-content">
-                    <p class="placeholder-text">
-                        [Your bio will go here. This is a placeholder section where you can write about your background, 
-                        skills, education, and professional experience. Feel free to customize this section with your 
-                        personal information.]
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-            <div class="container">
-                <h2 class="section-title">Projects</h2>
-                <div class="filter-container">
-                    <!-- Tag filter buttons will be dynamically added here -->
-                </div>
-                <div class="projects-grid">
-                    <!-- Projects will be dynamically loaded here -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="section">
-            <div class="container">
-                <h2 class="section-title">Contact</h2>
-                <div class="contact-content">
-                    <p class="contact-intro">Feel free to reach out to me through any of the following platforms:</p>
-                    <div class="contact-links">
-                        <a href="https://github.com/michele-colombo" target="_blank" class="contact-link">
-                            <i class="fab fa-github"></i>
-                            <span>GitHub</span>
-                        </a>
-                        <!-- Update with your email address -->
-                        <a href="mailto:your.email@example.com" class="contact-link">
-                            <i class="fas fa-envelope"></i>
-                            <span>Email</span>
-                        </a>
-                        <!-- Update with your LinkedIn profile URL -->
-                        <a href="https://linkedin.com/in/your-profile" target="_blank" class="contact-link">
-                            <i class="fab fa-linkedin"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Michele Colombo. All rights reserved.</p>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <h1 class="logo">Michele Colombo</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <!-- About Me Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>
+            I'm a 28-year-old software engineer, passionate about robotics and computer vision.
+            I hold a MSc in Computer Science and Engineering from Politecnico di Milano and
+            I currently work at a startup developing software for fully automated drone-based inspections.
+          </p>
+          <p>
+            Being in a very small team, I had the opportunity to contribute to several aspects of autonomous mission software,
+            including system architecture, mission management, path planning, drone control, and simulation.
+            The area that interests me the most, however, is perception: how an autonomous agent extracts
+            useful information from images and raw sensor data and how this information is further processed 
+            to build an internal, coherent and mostly accurate representation of the world.
+          </p>
+          <p>
+            In this domain, I've worked with both classical computer vision approaches and learning-based methods.
+            I enjoy integrating these two paradigms, grounding data-driven models in solid algorithmic and geometric foundations. 
+            Looking ahead, I'd really like to deepen my knowledge into deep learning techniques for 3D perception and scene understanding.
+          </p>
+          <p>
+            My interest in computing started from a hands-on project—building a motorized time-lapse dolly
+            because buying one was too expensive—and it's still driven by the desire to build things.
+            In my free time, I enjoy combining software and hardware into small mechatronics projects that involve 
+            ESP32, sensors, actuators and, more recently, 3D printing.
+          </p>
         </div>
-    </footer>
-
-    <script src="scripts/projects.js"></script>
+      </div>
+    </section>
+     
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="filter-container">
+          <!-- Tag filter buttons will be dynamically added here -->
+        </div>
+        <div class="projects-grid">
+          <!-- Projects will be dynamically loaded here -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+          <p class="contact-intro">Feel free to reach out to me through any of the following platforms:</p>
+          <div class="contact-links">
+            <a href="https://github.com/michele-colombo" target="_blank" class="contact-link">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <!-- Update with your LinkedIn profile URL -->
+            <a href="https://www.linkedin.com/in/michele-colombo-b39162142/" target="_blank" class="contact-link">
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Michele Colombo. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="scripts/projects.js"></script>
 </body>
 </html>
