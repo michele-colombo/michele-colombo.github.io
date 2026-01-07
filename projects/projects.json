@@ -8,6 +8,11 @@
         "thumbnailPath": "projects/pc-gau/thumbnail.png",
         "links": [
             {
+                "text": "Code",
+                "url": "https://github.com/michele-colombo/PC-Gau",
+                "icon": "fab fa-github"
+            },
+            {
                 "text": "Demo Code",
                 "url": "https://github.com/michele-colombo/PC-Gau_STAG2022",
                 "icon": "fab fa-github"
