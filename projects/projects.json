@@ -1,5 +1,20 @@
 [
     {
+        "id": "wtg-onboard",
+        "title": "Onboard Software for Fully Autonomous Wind Turbine Inspection",
+        "subtitle": "2022-current - DRB srl",
+        "descriptionPath": "projects/wtg-onboard/description.txt",
+        "tags": ["C++", "ROS", "Python", "CV", "DL"],
+        "thumbnailPath": "projects/wtg-onboard/thumbnail.png",
+        "links": [
+            {
+                "text": "Demo Video",
+                "url": "https://www.youtube.com/watch?v=EoXub9hDjKU",
+                "icon": "fab fa-youtube"
+            }
+        ]
+    },
+    {
         "id": "pc-gau",
         "title": "PC-Gau: PCA Basis of Scattered Gaussians for Shape Matching via Functional Maps",
         "subtitle": "2022 - Politecnico di Milano - MSc Thesis",
@@ -35,7 +50,7 @@
         "subtitle": "2019 - Politecnico di Milano",
         "descriptionPath": "projects/adrenaline/description.txt",
         "tags": ["Java", "GUI"],
-        "thumbnailPath": "projects/adrenaline/adrenaline-thumbnail.png",
+        "thumbnailPath": "projects/adrenaline/thumbnail.png",
         "links": [
             {
                 "text": "Source Code",

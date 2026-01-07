@@ -23,7 +23,7 @@ async function loadProjects() {
             <div class="project-content">
                 <h3 class="project-title">${project.title}</h3>
                 <h4 class="project-subtitle">${project.subtitle}</h4>
-                <p class="project-description">${description}</p>
+                <div class="project-description">${description}</div>
                 <div class="project-tech">
                     ${project.tags.map(tag => `<span class='tech-tag'>${tag}</span>`).join('')}
                 </div>
@@ -56,6 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
     filterContainer.className = 'filter-container';
     filterContainer.innerHTML = `
         <button onclick="filterProjects('All')">All</button>
+        <button onclick="filterProjects('C++')">C++</button>
+        <button onclick="filterProjects('ROS')">ROS</button>
+        <button onclick="filterProjects('Python')">Python</button>
         <button onclick="filterProjects('MATLAB')">MATLAB</button>
         <button onclick="filterProjects('Java')">Java</button>
     `;

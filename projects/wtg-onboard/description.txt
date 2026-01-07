@@ -1,0 +1,9 @@
+<p>Onboard software enabling fully autonomous drone inspections of wind turbines, from takeoff to landing. I was in charge of the transformation of an early prototype into a commercially deployed product, currently sold and used by clients in Europe.</p>
+
+<p>My contribution was key to the product’s success, including:</p>
+<ul>
+  <li>Improving accuracy and efficiency of computer vision algorithms for wind turbine part detection (<i>Python, OpenCV</i>)</li>
+  <li>Implementing a simple 3D localization library for turbine reconstruction (<i>C++, Eigen</i>)</li>
+  <li>Training and deploying a segmentation network optimized with TensorRT for onboard inference (<i>Tensorflow</i>)</li>
+  <li>Redesigning and implementing the full mission management and motion planning stack (<i>C++, ROS 2</i>)</li>
+</ul>
