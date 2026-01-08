@@ -1,0 +1,1 @@
+A personal project aimed at learning autonomous navigation, SLAM, sensor fusion, and 3D reconstruction. It currently consists of a simple differential-drive platform and is designed to evolve modularly as new capabilities—and skills—are added.

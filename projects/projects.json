@@ -15,6 +15,21 @@
         ]
     },
     {
+        "id": "roland",
+        "title": "ROLAND: a RObot for Learning Autonomous Navigation and Detection",
+        "subtitle": "2025-current - personal",
+        "descriptionPath": "projects/roland/description.txt",
+        "tags": ["C++", "ROS", "micro-ROS", "3D Printing"],
+        "thumbnailPath": "projects/roland/thumbnail.jpg",
+        "links": [
+            {
+                "text": "Code",
+                "url": "https://github.com/michele-colombo/roland-robot-for-learning",
+                "icon": "fab fa-github"
+            }
+        ]
+    },
+    {
         "id": "pc-gau",
         "title": "PC-Gau: PCA Basis of Scattered Gaussians for Shape Matching via Functional Maps",
         "subtitle": "2022 - Politecnico di Milano - MSc Thesis",
@@ -53,7 +68,7 @@
         "thumbnailPath": "projects/adrenaline/thumbnail.png",
         "links": [
             {
-                "text": "Source Code",
+                "text": "Code",
                 "url": "https://github.com/michele-colombo/ing-sw-2019-colombo-daglio-diceglie",
                 "icon": "fab fa-github"
             }
