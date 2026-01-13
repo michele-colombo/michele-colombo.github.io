@@ -1,0 +1,1 @@
+A 3-axis gimbal based on ESP32, running PID controllers for stabilization. Features self-designed, 3D-printed parts and brushless motors controlled using Simple-FOC library.

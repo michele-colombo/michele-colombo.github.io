@@ -19,7 +19,7 @@
         "title": "ROLAND: a RObot for Learning Autonomous Navigation and Detection",
         "subtitle": "2025-current - personal",
         "descriptionPath": "projects/roland/description.txt",
-        "tags": ["C++", "ROS", "micro-ROS", "3D Printing"],
+        "tags": ["C++", "ROS", "micro-ROS", "ESP32", "3D Printing"],
         "thumbnailPath": "projects/roland/thumbnail.jpg",
         "links": [
             {
@@ -70,6 +70,21 @@
             {
                 "text": "Code",
                 "url": "https://github.com/michele-colombo/ing-sw-2019-colombo-daglio-diceglie",
+                "icon": "fab fa-github"
+            }
+        ]
+    },
+    {
+        "id": "gimbal",
+        "title": "3-axis, ESP32-based Gimbal",
+        "subtitle": "2024-current - personal",
+        "descriptionPath": "projects/gimbal/description.txt",
+        "tags": ["C++", "ESP32", "3D Printing"],
+        "thumbnailPath": "projects/gimbal/thumbnail.jpg",
+        "links": [
+            {
+                "text": "Code",
+                "url": "https://github.com/michele-colombo/esp32-gimbal",
                 "icon": "fab fa-github"
             }
         ]
