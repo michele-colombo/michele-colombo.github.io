@@ -77,7 +77,7 @@
     {
         "id": "gimbal",
         "title": "3-axis, ESP32-based Gimbal",
-        "subtitle": "2024-current - personal",
+        "subtitle": "2024 - personal",
         "descriptionPath": "projects/gimbal/description.txt",
         "tags": ["C++", "ESP32", "3D Printing"],
         "thumbnailPath": "projects/gimbal/thumbnail.jpg",
